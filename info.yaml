@@ -26,13 +26,13 @@ pinout:
   ui[7]: "8th digit of the binary number code"
 
   # Outputs
-  uo[0]: "Pin connected to the A pin of the 7-segment display"
-  uo[1]: "Pin connected to the B pin of the 7-segment display"
-  uo[2]: "Pin connected to the C pin of the 7-segment display"
-  uo[3]: "Pin connected to the D pin of the 7-segment display"
-  uo[4]: "Pin connected to the E pin of the 7-segment display"
-  uo[5]: "Pin connected to the F pin of the 7-segment display"
-  uo[6]: "Pin connected to the G pin of the 7-segment display"
+  uo[0]: "Pin connected to the SEG_A pin of the 7-segment display"
+  uo[1]: "Pin connected to the SEG_B pin of the 7-segment display"
+  uo[2]: "Pin connected to the SEG_C pin of the 7-segment display"
+  uo[3]: "Pin connected to the SEG_D pin of the 7-segment display"
+  uo[4]: "Pin connected to the SEG_E pin of the 7-segment display"
+  uo[5]: "Pin connected to the SEG_F pin of the 7-segment display"
+  uo[6]: "Pin connected to the SEG_G pin of the 7-segment display"
   uo[7]: ""
 
   # Bidirectional pins
