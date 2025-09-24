@@ -16,23 +16,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "An input used to input the first digit of the binary number code"
-  ui[1]: "An input used to input the second digit of the binary number code"
-  ui[2]: "An input used to input the third digit of the binary number code"
-  ui[3]: "An input used to input the fourth digit of the binary number code"
-  ui[4]: "An input used to input the fifth digit of the binary number code"
-  ui[5]: "An input used to input the sixth digit of the binary number code"
-  ui[6]: "An input used to input the seventh digit of the binary number code"
-  ui[7]: "An input used to input the eighth digit of the binary number code"
+  ui[0]: "1st digit of the binary number code"
+  ui[1]: "2nd digit of the binary number code"
+  ui[2]: "3rd digit of the binary number code"
+  ui[3]: "4th digit of the binary number code"
+  ui[4]: "5th digit of the binary number code"
+  ui[5]: "6th digit of the binary number code"
+  ui[6]: "7th digit of the binary number code"
+  ui[7]: "8th digit of the binary number code"
 
   # Outputs
-  uo[0]: "Pin used to drive the top segment of the 7-segment display"
-  uo[1]: "Pin used to drive the top-right segment of the 7-segment display"
-  uo[2]: "Pin used to drive the bottom-right segment of the 7-segment display"
-  uo[3]: "Pin used to drive the bottom segment of the 7-segment display"
-  uo[4]: "Pin used to drive the bottom-left segment of the 7-segment display"
-  uo[5]: "Pin used to drive the top-left segment of the 7-segment display"
-  uo[6]: "Pin used to drive the middle segment of the 7-segment display"
+  uo[0]: "Pin connected to the A pin of the 7-segment display"
+  uo[1]: "Pin connected to the B pin of the 7-segment display"
+  uo[2]: "Pin connected to the C pin of the 7-segment display"
+  uo[3]: "Pin connected to the D pin of the 7-segment display"
+  uo[4]: "Pin connected to the E pin of the 7-segment display"
+  uo[5]: "Pin connected to the F pin of the 7-segment display"
+  uo[6]: "Pin connected to the G pin of the 7-segment display"
   uo[7]: ""
 
   # Bidirectional pins
