@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     442977603880750081       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "My first Wokwi project"      # Project title
+  author:       "Yevhenii Konyshev"      # Your name
+  discord:      "shallow_dive"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A project that shows the first letter of my name when the correct number code is inputed"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,23 +16,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "An input used to input the first digit of the binary number code"
+  ui[1]: "An input used to input the second digit of the binary number code"
+  ui[2]: "An input used to input the third digit of the binary number code"
+  ui[3]: "An input used to input the fourth digit of the binary number code"
+  ui[4]: "An input used to input the fifth digit of the binary number code"
+  ui[5]: "An input used to input the sixth digit of the binary number code"
+  ui[6]: "An input used to input the seventh digit of the binary number code"
+  ui[7]: "An input used to input the eighth digit of the binary number code"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "Pin used to drive the top segment of the 7-segment display"
+  uo[1]: "Pin used to drive the top-right segment of the 7-segment display"
+  uo[2]: "Pin used to drive the bottom-right segment of the 7-segment display"
+  uo[3]: "Pin used to drive the bottom segment of the 7-segment display"
+  uo[4]: "Pin used to drive the bottom-left segment of the 7-segment display"
+  uo[5]: "Pin used to drive the top-left segment of the 7-segment display"
+  uo[6]: "Pin used to drive the middle segment of the 7-segment display"
   uo[7]: ""
 
   # Bidirectional pins
